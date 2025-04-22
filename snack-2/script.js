@@ -8,3 +8,8 @@ const people = [
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
 people.forEach((name) => console.log(name.name));
+
+// *** OPPURE ***
+
+// const names = people.map((name) => name.name);
+// console.table(names);
